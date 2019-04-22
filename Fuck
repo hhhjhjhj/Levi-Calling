@@ -1,0 +1,14 @@
+http//: instagram.com
+const Nightmare = require('nightmare');
+const nightmare = Nightmare({
+    show: true,
+    webPreferences: {
+        partition: 'nopersist',
+    },
+});
+
+const username = 'rezavahleviii';
+const password = 'arsya999';
+const search = '#jakarta';
+const comment = 'anjing';
+const posts = 10
